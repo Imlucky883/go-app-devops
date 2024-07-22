@@ -13,7 +13,7 @@ FROM gcr.io/distroless/base
 
 COPY --from=base /app/demoapp .
 
-COPY --from=base /app/static ./static
+COPY --from=base /app/static /static
 
 EXPOSE 8081
 
