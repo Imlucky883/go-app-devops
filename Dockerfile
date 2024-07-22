@@ -2,9 +2,9 @@ FROM golang:1.22.5 AS base
 
 WORKDIR /app
 
-RUN go mod download
-
 COPY . .
+
+RUN go mod download
 
 RUN go build -o demoapp .
 
