@@ -20,8 +20,7 @@ func main() {
             <title>Simple Go Image Server</title>
         </head>
         <body>
-            <h1>Welcome to the Simple Go Image Server</h1>
-            <img src="/static/gofer.png" alt="Sample Image" />
+            <h1><center>Welcome to the Simple Go Image Server</center></h1>
         </body>
         </html>`
 		w.Write([]byte(html))
