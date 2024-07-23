@@ -23,7 +23,11 @@ func main() {
             <h1><center>Welcome to the Simple Go Server</center></h1>
         </body>
         </html>`
-		w.Write([]byte(html))
+		// Check for errors when writing the response
+		if _, err := w.Write([]byte(html)); err != nil {
+			log.Printf("Error writing response: %v", err)
+			http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+		}
 	})
 
 	// Start the server on port 8080
