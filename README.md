@@ -45,3 +45,7 @@ The application is designed to run in Kubernetes environment, leveraging Docker 
    ```bash
    git clone https://github.com/Imlucky883/go-web-app.git
    cd go-web-app
+
+### Credits 
+
+- [Abhishek Veeramala](https://github.com/iam-veeramalla) 
