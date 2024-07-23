@@ -4,7 +4,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - trunk
     paths-ignore:
       - 'README.md'
       - 'helm/**' # ArgoCD will automatically detect any changes made
