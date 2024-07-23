@@ -20,7 +20,7 @@ func main() {
             <title>Simple Go Image Server</title>
         </head>
         <body>
-            <h1><center>Welcome to the Simplest Go Server</center></h1>
+            <h1><center>Welcome to the Simplest Golang Server</center></h1>
         </body>
         </html>`
 		// Check for errors when writing the response
