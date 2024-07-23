@@ -1,5 +1,3 @@
-# End-to-End DevOps Implementation for a Golang Web Application 
-
 ![arhitecture](/static/architecture.png)
 
 ## Introduction
