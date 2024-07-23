@@ -6,7 +6,7 @@
 
 This project showcases a modern approach to building, deploying, and managing a Go web application using containerization, continuous integration, and continuous deployment (CI/CD) practices.
 
-The application is designed to run in a Kubernetes environment, leveraging Docker for containerization and GitHub Actions for CI. We utilize Helm for managing Kubernetes manifests and ArgoCD for continuous deployment, ensuring that our application is always up to date.
+The application is designed to run in Kubernetes environment, leveraging Docker for containerization and GitHub Actions for CI. We utilize Helm for managing Kubernetes manifests and ArgoCD for continuous deployment, ensuring that our application is always up to date.
 
 ## Project Features
 
