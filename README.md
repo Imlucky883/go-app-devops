@@ -14,7 +14,7 @@ The application is designed to run in Kubernetes environment, leveraging Docker 
 
 **Continuous Delivery**: Implementing Argo CD for streamlined deployment and management of applications on Kubernetes.
 
-**Kubernetes Cluster Setup**: Launching a EKS CLuster in AWS
+**Kubernetes Cluster Setup**: Launching  EKS CLuster in AWS
 
 **Helm Chart Creation**: Designing Helm charts for easy configuration and management across multiple environments.
 
